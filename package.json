@@ -1,5 +1,5 @@
 {
-  "name": "Pauls rClone",
+  "name": "paul-rclone",
   "version": "1.0.0",
   "description": "my awesome app!",
   "engines": {
@@ -11,9 +11,7 @@
     "test-e2e": "NODE_ENV=test protractor test/e2e/conf.js",
     "test-server": "NODE_ENV=test mocha test/server",
     "test": "npm run test-server; npm run test-e2e",
-    "start": "gulp",
-    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
-  "heroku-postbuild": "echo This runs afterwards."
+    "start": "gulp"
   },
   "keywords": [],
   "author": "",
