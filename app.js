@@ -2,6 +2,7 @@ const express = require('express')
 const path = require('path')
 const bodyParser = require('body-parser')
 const app = express()
+
 require('dotenv').config()
 
 
@@ -9,6 +10,7 @@ if (process.env.NODE_ENV !== 'test') {
   const logger = require('morgan')
   app.use(logger('dev'))
 }
+
 
 app.use(bodyParser.json())
 app.use(express.static(path.join(__dirname, 'public')))
