@@ -7,7 +7,7 @@
     "npm": "4.2.0"
   },
   "scripts": {
-    "start": " node app/bin/www"
+    "start": " node app/bin/www",
     "migrate": "knex migrate:latest"
   },
   "keywords": [],
