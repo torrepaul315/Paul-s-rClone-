@@ -13,10 +13,10 @@ module.exports = {
       database:  process.env.DATABASE_URL
     },
     migrations: {
-      directory: './app/migrations'
+      directory: './migrations'
     },
     seeds: {
-      directory: './app/seeds'
+      directory: './seeds'
     },
     useNullAsDefault: true
 
