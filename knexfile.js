@@ -12,6 +12,13 @@ module.exports = {
     connection: {
       database:  process.env.DATABASE_URL
     }
+    migrations: {
+      directory: './app/migrations'
+    },
+    seeds: {
+      directory: './app/seeds'
+    },
+    useNullAsDefault: true
 
   }
 
