@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": " node app/bin/www"
+    "migrate": "knex migrate:latest"
   },
   "keywords": [],
   "author": "",

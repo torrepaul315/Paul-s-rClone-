@@ -10,8 +10,10 @@ module.exports = {
   production: {
     client: 'pg',
     connection: {
-      database:  process.env.DATABASE_URL + '?ssl=true'|| 'reddit-clone-test',
+      database:  process.env.DATABASE_URL
     }
   }
 
 };
+
+// '?ssl=true'
