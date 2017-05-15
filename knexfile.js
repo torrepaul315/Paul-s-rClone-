@@ -12,6 +12,7 @@ module.exports = {
     connection: {
       database:  process.env.DATABASE_URL
     }
+    /
   }
 
 };
