@@ -1,12 +1,11 @@
-# Paul's rClone
+# Front Range Trail Board
 
 🎉Hello and thanks for checking out my Repo!🎉
 
 This repo is a project I completed during my time at Galvanize
 
-This project is a full-stack clone of reddit persisting information to a database and utilizing Angular on the front - end to dynamically update this single page app.
+This project is a full-stack AngularJS single page app for avid front range hikers to post trail reviews, comment on other user's reviews, and vote for their favorite hiking/trail-running spots
 
-A modern hiker community for visitors to upvote, downvote, post and delete.
 Technologies Used
 
 AngularJS CRUD Applications against an HTTP API
